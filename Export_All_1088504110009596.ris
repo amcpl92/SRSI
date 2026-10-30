@@ -1,0 +1,492 @@
+TY  - JOUR
+JF  - Applied sciences
+DO  - 10.3390/app13010221
+PB  - MDPI AG
+Y1  - 2023
+VL  - 13
+ID  - cdi_proquest_journals_2761126767
+N2  - Traditional security architectures use a perimeter-based security model where everything internal to the corporate network is trusted by default. This type of architecture was designed to protect static servers and endpoints; however, we need to adapt to emerging technologies where serverless applications are running on containers, mobile endpoints, IoT, and cyber-physical systems. Since the beginning of the fourth industrial revolution (Industry 4.0), there has been a massive investment in smart manufacturing which responds in real-time to the supply chain and connects the digital and physical environments using IoT, cloud computing, and data analytics. The zero-trust security model is a concept of implementing cybersecurity techniques considering all networks and hosts to be hostile irrespective of their location. Over the past few years, this model has proven to be a remarkably effective security solution in conventional networks and devices. In this paper, the zero-trust approach will be fully explored and documented explaining its principles, architecture, and implementation procedure. It will also include a background of the smart manufacturing industry and a review of the existing cyber security solutions followed by a proposed design of the zero-trust model along with all the enabling factors for on-premises and cloud-hosted infrastructure. Various security solutions such as micro-segmentation of the industrial network, device discovery, and compliance management tools that are essential in achieving complete zero-trust security are considered in the proposed architecture. 
+KW  - Access control ; Computer security ; Factories ; Internet of things ; Trust
+AU  - Paul, Biplob
+AU  - Rao, Muzaffar
+SN  - 2076-3417
+CY  - Basel
+SP  - 221
+IS  - 1
+T1  - Zero-Trust Model for Smart Manufacturing Industry
+ER  -
+TY  - JOUR
+JF  - Journal of cybersecurity and privacy
+DO  - 10.3390/jcp5010002
+PB  - MDPI AG
+Y1  - 2024
+VL  - 5
+ID  - cdi_proquest_journals_3181524658
+N2  - The Zero Trust Architecture (ZTA) security system follows the “never trust, always verify” principle. The process constantly verifies users and devices trying to access resources. This paper describes how Microsoft Azure uses ZTA to enforce strict identity verification and access rules across the cloud environment to improve security. Implementation takes time and effort. Azure’s extensive services and customizations require careful design and implementation. Azure administrators need help navigating and changing configurations due to its complex user interface (UI). Each Azure ecosystem component must meet ZTA criteria. ZTAs comprehensive policy definitions, multi-factor and passwordless authentication, and other advanced features are tested in a mid-size business scenario. The document delineates several principal findings concerning the execution of Azure’s ZTA within mid-sized enterprises. Azure ZTA significantly improves security by reducing attack surfaces via ongoing identity verification, stringent access controls, and micro-segmentation. Nonetheless, its execution is resource-demanding and intricate, necessitating considerable expertise and meticulous planning. A notable disparity exists between theoretical ZTA frameworks and their practical implementation, characterized by disjointed management interfaces and user fatigue resulting from incessant authentication requests. The case studies indicate that although Zero Trust Architecture enhances organizational security and mitigates risks, it may disrupt operations and adversely affect user experience, particularly in hybrid and fully cloud-based settings. The study underscores the necessity for customized configurations and the equilibrium between security and usability to ensure effective ZTA implementation. 
+KW  - Access control ; Automation ; Cloud computing ; Computer security ; Decision making ; Efficiency ; Internet of things ; Investigations ; Virtual reality
+AU  - Dakić, Vedran
+AU  - Morić, Zlatan
+AU  - Kapulica, Ana
+AU  - Regvart, Damir
+SN  - 2624-800X
+CY  - Washington
+SP  - 2
+IS  - 1
+T1  - Analysis of Azure Zero Trust Architecture Implementation for Mid-Size Organizations
+ER  -
+TY  - JOUR
+JF  - Journal of network and systems management
+DO  - 10.1007/s10922-026-10089-8
+PB  - Springer US
+Y1  - 2026
+JA  - J Netw Syst Manage
+VL  - 34
+ID  - cdi_proquest_journals_3357689787
+N2  - The increasing sophistication of cyber attacks has rendered traditional static password-based authentication mechanisms inadequate for secure identity verification in modern information systems. Attack techniques such as social engineering, credential theft, and phishing continue to bypass conventional security controls, underscoring the need for adaptive, continuous identity verification mechanisms within Zero Trust architectures. A multi-layer identity authentication architecture is developed by integrating Multi-Factor Authentication (MFA) with the Analysis of Competing Hypotheses (ACH) to enable dynamic and robust access control. The architecture adopts a three-layer verification framework that progresses from basic identity validation to advanced behavioral analysis. It consists of an Identity Authentication Engine, an ACH Engine, and a Policy Engine, which collectively perform multidimensional behavioral assessment across five factors: login time patterns, device characteristics, geolocation, user operational behavior, and network environment attributes. By replacing static, one-time authentication with continuous identity assessment, the proposed framework enforces strict verification at initial access and maintains real-time monitoring throughout the entire user session. This approach enables the detection of anomalous behavior and potential threats even when valid credentials are compromised. The architecture is evaluated using simulated financial transaction scenarios. Experimental results show that the system achieves 94.3% accuracy in identifying legitimate access and 96.1% accuracy in detecting automated attacks. Compared with traditional two-factor authentication methods, the framework reduces the false-positive rate by 57% and the false-negative rate by 47%. These results demonstrate that combining ACH, MFA, behavioral analysis, and continuous monitoring significantly enhances authentication reliability in Zero Trust environments and provides a practical, deployable solution for secure identity verification. 
+KW  - Access control ; Applied Behavior Analysis ; Artificial intelligence ; Authentication ; Biometry ; Computer networks ; Computer science ; Computer security ; Data integrity ; Decision making ; Information storage and retrieval systems ; Information technology ; Realtime . . . ; Reliability ; Risk assessment ; Robust control ; Theft ; Trust
+AU  - Chang, Shih-Hao
+AU  - Huang, Kai-li
+AU  - Hsieh, Wen-Bin
+AU  - Chen, Shiang-Jiun
+SN  - 1064-7570
+CY  - New York
+SP  - 117
+IS  - 4
+T1  - A Hypothesis-Driven Multi-layer Zero Trust Authentication Framework
+ER  -
+TY  - JOUR
+JF  - Future internet
+DO  - 10.3390/fi17080372
+PB  - MDPI AG
+Y1  - 2025
+VL  - 17
+ID  - cdi_gale_infotracmisc_A853701281
+N2  - The evolution toward sixth generation (6G) wireless networks promises higher performance, greater flexibility, and enhanced intelligence. However, it also introduces a substantially enlarged attack surface driven by open, disaggregated, and multi-vendor Open RAN (O-RAN) architectures that will be utilised in 6G networks. This paper addresses the urgent need for a practical Zero Trust (ZT) deployment model tailored to O-RAN specification. To do so, we introduce a novel hybrid ZT deployment model that establishes the trusted foundation for AI/ML-driven security in O-RAN, integrating macro-level enclave segmentation with micro-level application sandboxing for xApps/rApps. In our model, the Policy Decision Point (PDP) centrally manages dynamic policies, while distributed Policy Enforcement Points (PEPs) reside in logical enclaves, agents, and gateways to enable per-session, least-privilege access control across all O-RAN interfaces. We demonstrate feasibility via a Proof of Concept (PoC) implemented with Kubernetes and Istio and based on the NIST Policy Machine (PM). The PoC illustrates how pods can represent enclaves and sidecar proxies can embody combined agent/gateway functions. Performance discussion indicates that enclave-based deployment adds 1–10 ms of additional per-connection latency while CPU/memory overhead from running a sidecar proxy per enclave is approximately 5–10% extra utilisation, with each proxy consuming roughly 100–200 MB of RAM. 
+KW  - Access control ; Automation ; Feasibility studies ; Open Radio Access Network ; Telecommunication systems ; Trust
+AU  - Hashem Eiza, Max
+AU  - Akwirry, Brian
+AU  - Raschella, Alessandro
+AU  - Mackay, Michael
+AU  - Maheshwari, Mukesh Kumar
+SN  - 1999-5903
+CY  - Basel
+SP  - 372
+IS  - 8
+T1  - A Hybrid Zero Trust Deployment Model for Securing O-RAN Architecture in 6G Networks
+ER  -
+TY  - JOUR
+JF  - Entropy (Basel, Switzerland)
+DO  - 10.3390/e25121595
+PB  - MDPI AG
+Y1  - 2023
+VL  - 25
+ID  - cdi_doaj_primary_oai_doaj_org_article_411f15d52fd949cf85a078eba18d3a13
+N2  - As cross-border access becomes more frequent, traditional perimeter-based network security models can no longer cope with evolving security requirements. Zero trust is a novel paradigm for cybersecurity based on the core concept of “never trust, always verify”. It attempts to protect against security risks related to internal threats by eliminating the demarcations between the internal and external network of traditional network perimeters. Nevertheless, research on the theory and application of zero trust is still in its infancy, and more extensive research is necessary to facilitate a deeper understanding of the paradigm in academia and the industry. In this paper, trust in cybersecurity is discussed, following which the origin, concepts, and principles related to zero trust are elaborated on. The characteristics, strengths, and weaknesses of the existing research are analysed in the context of zero trust achievements and their technical applications in Cloud and IoT environments. Finally, to support the development and application of zero trust in the future, the concept and its current challenges are analysed. 
+KW  - Access control ; Cloud computing ; Computer security ; Digital Technology ; Internet of things ; Research ; Software
+AU  - Kang, Hongzhaoning
+AU  - Liu, Gang
+AU  - Wang, Quan
+AU  - Meng, Lei
+AU  - Liu, Jing
+SN  - 1099-4300
+CY  - Switzerland
+SP  - 1595
+IS  - 12
+T1  - Theory and Application of Zero Trust Security: A Brief Survey
+T2  - Entropy (Basel)
+ER  -
+TY  - JOUR
+JF  - International journal of information security
+DO  - 10.1007/s10207-025-01099-9
+PB  - Springer Nature B.V
+Y1  - 2025
+VL  - 24
+ID  - cdi_crossref_primary_10_1007_s10207_025_01099_9
+N2  - As cyber threats continue to evolve, modern organizations face increasing challenges in securing their digital infrastructure. Traditional security approaches like Virtual Private Networks (VPNs) often fall short due to their inherent trust assumptions and broad access once authenticated, which can be exploited if credentials are compromised. To address these limitations, this paper proposes an enhanced Software-Defined Perimeter (SDP) architecture that aligns with Zero Trust security principles. By integrating Identity and Access Management (IAM) using Keycloak and Intrusion Detection Systems (IDS), the architecture strengthens authentication processes and introduces continuous monitoring and real-time threat detection. This integration mitigates risks associated with credential theft, unauthorized access, and insider threats while ensuring dynamic access control. However, these enhancements introduce a slight performance overhead. Evaluation across various network topologies shows that while connection setup time increases by approximately 75-100ms, the overall network throughput remains largely unaffected. The findings suggest that the enhanced SDP architecture offers a robust security solution for modern enterprises adopting Zero Trust, balancing advanced threat mitigation with minimal performance trade-offs. This work provides valuable insights into integrating IAM and IDS within SDP frameworks, reinforcing the need for adaptable and resilient cybersecurity strategies. 
+KW  - Access control ; Authentication ; Computer security ; Internet ; Realtime . . . ; Software ; Theft ; Threats ; Trust
+AU  - Paya, Antonio
+AU  - Vicente-García
+AU  - Gómez, Alberto
+SN  - 1615-5262
+CY  - Heidelberg
+SP  - 178
+IS  - 4
+T1  - Enhancing software-defined perimeters with integrated identity solutions and threat detection for robust zero trust security
+ER  -
+TY  - JOUR
+JF  - Mathematics (Basel)
+DO  - 10.3390/math13091501
+PB  - MDPI AG
+Y1  - 2025
+VL  - 13
+ID  - cdi_proquest_journals_3203211387
+N2  - The rapid evolution and deployment of 5G networks have introduced complex security challenges due to their reliance on dynamic network slicing, ultra-low latency communication, decentralized architectures, and highly diverse use cases. Traditional perimeter-based security models are no longer sufficient in these highly fluid and distributed environments. In response to these limitations, this study introduces SecureChain-ZT, a novel Adaptive Zero Trust Policy Framework (AZTPF) that addresses emerging threats by integrating intelligent access control, real-time monitoring, and decentralized authentication mechanisms. SecureChain-ZT advances conventional Zero Trust Architecture (ZTA) by leveraging machine learning, reinforcement learning, and blockchain technologies to achieve autonomous policy enforcement and threat mitigation. Unlike static ZT models that depend on predefined rule sets, AZTPF continuously evaluates user and device behavior in real time, detects anomalies through AI-powered traffic analysis, and dynamically updates access policies based on contextual risk assessments. Comprehensive simulations and experiments demonstrate the robustness of the framework. SecureChain-ZT achieves an authentication accuracy of 97.8% and reduces unauthorized access attempts from 17.5% to just 2.2%. Its advanced detection capabilities achieve a threat detection accuracy of 99.3% and block 95.6% of attempted cyber intrusions. The implementation of blockchain-based identity verification reduces spoofing incidents by 97%, while microsegmentation limits lateral movement attacks by 75%. The proposed SecureChain-ZT model achieved an authentication accuracy of 98.6%, reduced false acceptance and rejection rates to 1.2% and 0.2% respectively, and improved policy update time to 180 ms. Compared to traditional models, the overall latency was reduced by 62.6%, and threat detection accuracy increased to 99.3%. These results highlight the model’s effectiveness in both cybersecurity enhancement and real-time service responsiveness. This research contributes to the advancement of Zero Trust security models by presenting a scalable, resilient, and adaptive policy enforcement framework that aligns with the demands of next-generation 5G infrastructures. The proposed SecureChain-ZT model not only enhances cybersecurity but also ensures service reliability and responsiveness in complex and mission-critical environments. 
+KW  - 5G mobile communication systems ; Access control ; Adaptation ; Artificial intelligence ; Authentication ; Automation ; Cloud computing ; Computer security ; Edge computing ; Machine learning ; Realtime . . . ; Smart cities
+AU  - Alnaim, Abdulrahman K.
+SN  - 2227-7390
+CY  - Basel
+SP  - 1501
+IS  - 9
+T1  - Adaptive Zero Trust Policy Management Framework in 5G Networks
+ER  -
+TY  - JOUR
+JF  - Wireless communications and mobile computing
+DO  - 10.1155/2022/6476274
+PB  - Hindawi
+Y1  - 2022
+VL  - 2022
+ID  - cdi_proquest_journals_2680913818
+N2  - The traditional perimeter-based network protection model cannot adapt to the development of current technology. Zero trust is a new type of network security model, which is based on the concept of never trust and always verify. Whether the access subject is in the internal network or the external network, it needs to be authenticated to access resources. The zero trust model has received extensive attention in research and practice because it can meet the new network security requirements. However, the application of zero trust is still in its infancy, and enterprises, organizations, and individuals are not fully aware of the advantages and disadvantages of zero trust, which greatly hinders the application of zero trust. This paper introduces the existing zero trust architecture and analyzes the core technologies including identity authentication, access control, and trust assessment, which are mainly relied on in the zero trust architecture. The main solutions under each technology are compared and analyzed to summarize the advantages and disadvantages, as well as the current challenges and future research trends. Our goal is to provide support for the research and application of future zero trust architectures. 
+KW  - Access control ; Algorithms ; Authentication ; Telecommuting ; Trust
+AU  - He, Yuanhang
+AU  - Huang, Daochao
+AU  - Chen, Lei
+AU  - Ni, Yi
+AU  - Ma, Xiangjie
+AU  - Huo, Yan
+SN  - 1530-8669
+CY  - Oxford
+IS  - 1
+T1  - A Survey on Zero Trust Architecture: Challenges and Future Trends
+ER  -
+TY  - JOUR
+JF  - Journal of computer security
+DO  - 10.1177/0926227X251409922
+PB  - SAGE Publications
+Y1  - 2026
+VL  - 34
+ID  - cdi_proquest_journals_3302062057
+N2  - With the rise and advancements of technology, digital security is facing unprecedented challenges. Traditional security measures, such as strong credentials and multi-factor authentication (MFA), are no longer sufficient to protect digital assets from attacks and unauthorized access or to effectively verify user authenticity. Zero trust architecture (ZTA) has emerged as a solution in response to these issues. Leading organizations, including Google, Forrester, Palo Alto, and CISCO, have initiated strategies to design their own deployable ZTAs to offer the perks of ZT to other organizations. It operates on various principles such as removing implicit trust, continuously authenticating users, and de-perimeterization. It provides a top-notch defense against various major cyberattacks on organizations. This study offers a comprehensive and multi-dimensional synthesis of ZTAs. It also examines the principles and implementation strategies of various ZTAs, comparing them using multiple parameters to highlight their strengths and weaknesses. In addition to the synthesis of ZTAs, the work demonstrates its practical value with sector-specific examples to make it more relevant for real-world applications. Through a detailed analysis, the study identified potential research gaps and areas in existing research that require further investigation. These insights can guide future developments in digital security. The findings aim to help organizations select and implement the most effective ZT strategies to enhance their cybersecurity posture. 
+KW  - Associations, institutions, etc. ; Authentication ; Computer security ; Synthesis
+EP  - 110
+AU  - Soni, Ashutosh
+AU  - Kumar Nanda, Surendra
+AU  - Priyadarshini, Rojalina
+AU  - Panda, Ganapati
+SN  - 0926-227X
+CY  - London, England
+SP  - 85
+IS  - 2
+T1  - A comprehensive review and comparative analysis of zero trust architecture: Evolution, implementation strategies, and key challenges
+ER  -
+TY  - JOUR
+JF  - Future internet
+DO  - 10.3390/fi18040187
+PB  - MDPI AG
+Y1  - 2026
+VL  - 18
+ID  - cdi_gale_infotracacademiconefile_A884990496
+N2  - The rapid evolution of 6G networks and large-scale Internet of Things (IoT) deployments intensifies security and privacy challenges in embedded SIM (eSIM) Remote SIM Provisioning (RSP), particularly during the bootstrap and profile delivery phases. Traditional perimeter-based and VPN-centric approaches expose static attack surfaces, making provisioning workflows vulnerable to denial-of-service (DoS) attacks, reconnaissance, and profile lock-in risks. This paper presents MTD-SDP-eSIM, a hardware-anchored Zero Trust Architecture that secures eSIM provisioning by integrating the embedded Universal Integrated Circuit Card (eUICC) as a root of trust with Software-Defined Perimeter (SDP), Software-Defined Networking (SDN), and Moving Target Defense (MTD). The framework introduces Hardware-Anchored Single Packet Authorization (ES-SPA), which cryptographically binds initial access to tamper-resistant eUICC credentials and enforces an authenticate-before-connect model. A unified Zero Trust controller dynamically orchestrates SDP access control, SDN-based micro-segmentation, and MTD-driven Network Address Shuffling during high-risk provisioning phases. This framework is validated on a high-fidelity 6G testbed built using ns-3, Open5GS, and P4-programmable switches. Experimental results demonstrate a 90% DoS survival rate during provisioning, a 35% scalability improvement over VPN-based baselines, and a 75% reduction in profile lock-in failures through runtime deletion verification. These findings confirm that anchoring dynamic network defenses in hardware-rooted identity significantly enhances the resilience, scalability, and privacy of eSIM provisioning for massive 6G IoT deployments. 
+KW  - Access control ; Algorithms ; Architecture ; Computer architecture ; Computer security ; Denial of service attacks ; Design ; Hardware ; Integrated circuits ; Internet of things ; Privacy ; Provisioning ; Security systems ; Smart cards ; Software ; Threats
+AU  - N., Hari N.
+AU  - Jain, Kurunandan
+AU  - P, Prabu
+AU  - Krishnan, Prabhakar
+SN  - 1999-5903
+CY  - Basel
+SP  - 187
+IS  - 4
+T1  - Hardware-Anchored ES-SPA: A Dynamic Zero-Trust Architecture for Secure eSIM Provisioning in 6G IoT via Moving Target Defense
+ER  -
+TY  - JOUR
+JF  - Sensors (Basel, Switzerland)
+DO  - 10.3390/s25196118
+PB  - MDPI AG
+Y1  - 2025
+VL  - 25
+ID  - cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_12526847
+N2  - The Zero Trust Architecture (ZTA) model has emerged as a foundational cybersecurity paradigm that eliminates implicit trust and enforces continuous verification across users, devices, and networks. This study presents a systematic literature review of 74 peer-reviewed articles published between 2016 and 2025, spanning domains such as cloud computing (24 studies), Internet of Things (11), healthcare (7), enterprise and remote work systems (6), industrial and supply chain networks (5), mobile networks (5), artificial intelligence and machine learning (5), blockchain (4), big data and edge computing (3), and other emerging contexts (4). The analysis shows that authentication, authorization, and access control are the most consistently implemented ZTA components, whereas auditing, orchestration, and environmental perception remain underexplored. Across domains, the main challenges include scalability limitations, insufficient lightweight cryptographic solutions for resource-constrained systems, weak orchestration mechanisms, and limited alignment with regulatory frameworks such as GDPR and HIPAA. Cross-domain comparisons reveal that cloud and enterprise systems demonstrate relatively mature implementations, while IoT, blockchain, and big data deployments face persistent performance and compliance barriers. Overall, the findings highlight both the progress and the gaps in ZTA adoption, underscoring the need for lightweight cryptography, context-aware trust engines, automated orchestration, and regulatory integration. This review provides a roadmap for advancing ZTA research and practice, offering implications for researchers, industry practitioners, and policymakers seeking to enhance cybersecurity resilience. 
+KW  - Access control ; Architecture ; Cloud computing ; Computer security ; Cryptography ; Internet of things ; Machine learning ; Trust
+AU  - Mushtaq, Sadaf
+AU  - Mohsin, Muhammad
+AU  - Mushtaq, Muhammad Mujahid
+SN  - 1424-8220
+CY  - Switzerland
+SP  - 6118
+IS  - 19
+T1  - A Systematic Literature Review on the Implementation and Challenges of Zero Trust Architecture Across Domains
+T2  - Sensors (Basel)
+ER  -
+TY  - JOUR
+JF  - Applied sciences
+DO  - 10.3390/app16125938
+PB  - MDPI AG
+Y1  - 2026
+VL  - 16
+ID  - cdi_gale_onefilemisc_PPGS_A893751335
+N2  - Multi-cloud is becoming more challenging to secure as traditional perimeter-based security models have a hard time protecting workloads running across multiple cloud platforms, identities, and services. To address this challenge, organizations are shifting to Zero-Trust Architecture (ZTA), which focuses on constant verification and stringent access control, coupled with anomaly detection methodologies to gain better visibility and threat detection in the distributed cloud environment. This paper presents a Systematic Literature Review (SLR) of anomaly detection approaches in multi-cloud environments and how these are applied in zero-trust security models. The review is conducted according to the guidelines of the 2020 Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA 2020), and is based on studies published between 2020 and 2025 selected from the databases of the following journals: Institute of Electrical and Electronics (IEEE) Xplore, Science Direct, MDPI, Google Scholar, and the Saudi Digital Library. Studies found on benchmark datasets such as CICIDS-2017 and UNSW-NB15 are not evaluated, as none addressed real multi-cloud environments. Although zero trust is highlighted in general, very few studies have implemented basics of zero trust such as micro-segmentation, identity federation, and enforcement through policy. Overall, this review identifies gaps around cross-cloud validation, explainability, and compliance-aware security design, including lack of attention to regulations such as the GDPR and HIPAA. These findings provide helpful recommendations for future research and development on practical and security solutions for multi-cloud environments. 
+KW  - Access control ; Architecture ; Artificial intelligence ; Cloud computing ; Compliance ; Computer security ; Digital libraries ; Middleware ; Privacy
+AU  - Almulla, Ziad
+AU  - Albuali, Abdullah
+SN  - 2076-3417
+CY  - Basel
+SP  - 5938
+IS  - 12
+T1  - Systematic Literature Review of AI-Driven Multi-Cloud Anomaly Detection in Zero-Trust Frameworks
+ER  -
+TY  - JOUR
+JF  - Discover Internet of things
+DO  - 10.1007/s43926-026-00497-2
+PB  - Springer International Publishing
+Y1  - 2026
+JA  - Discov Internet Things
+VL  - 6
+ID  - cdi_crossref_primary_10_1007_s43926_026_00497_2
+N2  - The fast adoption of enterprise infrastructures into distributed, cloud-native, and API-based ecosystems has presented sophisticated security requirements that cannot be effectively handled with more traditional frameworks based on perimeters and rules. The growing number of multi-cloud ecosystems, micro services, Internet of Things (IoT) gadgets, and AI-to-AI interactions have broadened the attack surface, creating the need to deploy more adaptive and intelligent security measures. This paper is a complete framework of autonomous security by uniting Zero Trust Architecture (ZTA) and Agentic Artificial Intelligence (AI) to provide context-sensitive and real-time threat detection and response. The offered Autonomous Governance Framework (AGF) takes advantage of multi-layered architecture that includes data acquisition, behavioral analytics, decision intelligence, enforcement, and feedback learning in order to provide constant monitoring and adjusting policymaking. The framework facilitates moving risk scoring dynamically and autonomous decision making by using generative AI to predictively model threats and machine learning-based behavioral analytics. One of the main contributions of this work is the idea of self-healing identity perimeters, in which credentials are automatically revoked and reissued according to a risk assessment based on context, thus limiting the use of compromised credentials. Moreover, the framework incorporates automated orchestration and real-time Data Loss Prevention (DLP) to enhance the protection of sensitive data in distributed environments. Context-aware API security provides a controlled access to data flows and is also consistent with the principle of Zero Trust that constantly verifies. Implementation considerations in multi-cloud and enterprise systems are also discussed in the paper emphasizing scalability, performance, and interoperability issues. 
+KW  - Access control ; Automation ; Communication ; Computer science ; Computer security ; Data integrity ; Decision making ; Electrical engineering ; Internet of things ; Machine learning ; Memory ; Review ; Risk assessment ; Security systems
+AU  - Nagi, Supreet
+AU  - Panesar, Manpinder Singh
+AU  - Pasricha, Svarmit Singh
+SN  - 2730-7239
+CY  - Cham
+SP  - 161
+IS  - 1
+T1  - Autonomous governance integrating agentic AI and zero trust for intelligent cybersecurity in distributed enterprise ecosystems
+ER  -
+TY  - JOUR
+JF  - International journal of information security
+DO  - 10.1007/s10207-025-01099-9
+PB  - Springer Berlin Heidelberg
+Y1  - 2025
+JA  - Int. J. Inf. Secur
+VL  - 24
+ID  - cdi_springer_journals_10_1007_s10207_025_01099_9
+N2  - As cyber threats continue to evolve, modern organizations face increasing challenges in securing their digital infrastructure. Traditional security approaches like Virtual Private Networks (VPNs) often fall short due to their inherent trust assumptions and broad access once authenticated, which can be exploited if credentials are compromised. To address these limitations, this paper proposes an enhanced Software-Defined Perimeter (SDP) architecture that aligns with
+Zero Trust
+security principles. By integrating Identity and Access Management (IAM) using Keycloak and Intrusion Detection Systems (IDS), the architecture strengthens authentication processes and introduces continuous monitoring and real-time threat detection. This integration mitigates risks associated with credential theft, unauthorized access, and insider threats while ensuring dynamic access control. However, these enhancements introduce a slight performance overhead. Evaluation across various network topologies shows that while connection setup time increases by approximately 75-100ms, the overall network throughput remains largely unaffected. The findings suggest that the enhanced SDP architecture offers a robust security solution for modern enterprises adopting
+Zero Trust
+, balancing advanced threat mitigation with minimal performance trade-offs. This work provides valuable insights into integrating IAM and IDS within SDP frameworks, reinforcing the need for adaptable and resilient cybersecurity strategies. 
+KW  - Computer networks ; Computer science ; Cryptography
+AU  - Paya, Antonio
+AU  - Vicente-García
+AU  - Gómez, Alberto
+SN  - 1615-5262
+CY  - Berlin/Heidelberg
+IS  - 4
+T1  - Enhancing software-defined perimeters with integrated identity solutions and threat detection for robust zero trust security: Enhancing Software-Defined Perimeters with Integrated Identity
+ER  -
+TY  - JOUR
+JF  - Future internet
+DO  - 10.3390/fi17070313
+PB  - MDPI AG
+Y1  - 2025
+VL  - 17
+ID  - cdi_gale_infotracacademiconefile_A850020057
+N2  - There is a growing pressure on industry to secure environments and demonstrate their commitment in taking right steps to secure their products. This is because of the growing number of security compromises in the IT industry, Operational Technology environment, Internet of Things environment and smart home devices. These compromises are not just about data breaches or data exfiltration, but also about unauthorised access to devices that are not configured correctly and vulnerabilities in software components, which usually lead to insecure authentication and authorisation. Incorrect configurations are usually in the form of devices being made available on the Internet (public domain), reusable credentials, access granted without verifying the requestor, and easily available credentials like default credentials. Organisations seeking to address the dual pressure of demonstrating steps in the right direction and addressing unauthorised access to resources can find a viable approach in the form of the zero trust concept. Zero trust principles are about moving security controls closer to the data, applications, assets and services and are based on the principle of “never trust, always verify”. As it stands today, zero trust research has advanced far beyond the concept of “never trust, always verify”. This paper provides the culmination of a literature review of research conducted in the space of smart home devices and IoT and the applicability of the zero trust five-step implementation process to secure them. We discuss the history of zero trust, the tenets of zero trust, the five-step implementation process for zero trust, and its adoption for smart home devices and Internet of Things, and we provide suggestions for future research. 
+KW  - Authentication ; Automation ; Communication ; Computer security ; Home Environment ; Internet of things ; Portable computers ; Public domain
+AU  - Kulkarni, Shruti
+AU  - Mylonas, Alexios
+AU  - Vidalis, Stilianos
+SN  - 1999-5903
+CY  - Basel
+SP  - 313
+IS  - 7
+T1  - Using the Zero Trust Five-Step Implementation Process with Smart Environments: State-of-the-Art Review and Future Directions
+ER  -
+TY  - JOUR
+JF  - Security and communication networks
+DO  - 10.1155/2022/3178760
+PB  - Hindawi
+Y1  - 2022
+VL  - 2022
+ID  - cdi_proquest_journals_2687529973
+N2  - Multiaccess Edge Computing (MEC) has been adopted to provide an environment that supports cloud computing capabilities and IT services at the network edge. The open architecture of cloud computing and network access at the edge provides malicious actors with many attack vectors. The MEC system entities cannot be permanently trusted due to the dynamic and shareable nature of MEC deployments. This paper presents a classification of MEC entities that can be used to define security controls based on the Zero-Trust Security approach. The security controls are organised into a maturity framework that can be used to guide the systematic development of trust and security in an MEC environment. In this framework, a Minimum Viable Security posture defines the first operational step towards full implementation of Zero-Trust Security in an MEC environment. 
+KW  - Access control ; Algorithms ; Cloud computing ; Computer security ; Cryptography ; Decision making ; Edge computing ; Mobile computing ; Smart cards ; Software ; Trust ; Values
+EP  - 14
+AU  - Ali, Belal
+AU  - Hijjawi, Simsam
+AU  - Campbell, Leith H.
+AU  - Gregory, Mark A.
+AU  - Li, Shuo
+AU  - Pandi, Vijayakumar
+SN  - 1939-0114
+CY  - London
+SP  - 1
+T1  - A Maturity Framework for Zero-Trust Security in Multiaccess Edge Computing
+ER  -
+TY  - JOUR
+JF  - IET blockchain
+DO  - 10.1049/blc2.12028
+PB  - John Wiley & Sons, Inc
+Y1  - 2023
+VL  - 3
+ID  - cdi_proquest_journals_3092275341
+N2  - Cyber security in the banking sector is of high importance nowadays. The rate of cyberattacks is spiking every year, and the implementation of strong cybersecurity models is required to ensure the confidentiality and integrity of data. Since protecting a bank requires a wide range of security practices, this paper focuses on protecting the bank resources from malicious actors and securing the transactions using a blockchain consensus mechanism that uses a zero‐trust security approach among the participants in the transaction. In addition to the framework, an algorithm for blockchain‐based online transactions was designed to make use of practical implementation in the future. The ideas formulated during the research and literature review were integrated to design the framework and the algorithm. The proposed framework ensures that the security of the banking sector can be enhanced by adopting the zero‐trust concept and blockchain technology. The consensus algorithms used for the transaction make it immutable and decentralized. Zero‐trust principles adopted in the model ensure the confidentiality and integrity of the banking system. This paper proposes a security framework to enhance the security of the banking sector by using a composite design integrating the zero‐trust concept with blockchain technology. The paper outlines three algorithms that ensure the confidentiality of the transactions and builds trust among the sender, sender's bank, and recipient's bank. 
+KW  - Algorithms ; Banks and banking ; Ciphers ; Computer security ; Employees ; Integrity
+EP  - 115
+AU  - Chaudhry, Umair B.
+AU  - Hydros, Aysha K. M.
+SN  - 2634-1573
+CY  - Shanghai
+SP  - 98
+IS  - 2
+T1  - Zero‐trust‐based security model against data breaches in the banking sector: A blockchain consensus algorithm
+ER  -
+TY  - JOUR
+JF  - Discover Computing
+DO  - 10.1007/s10791-026-10575-2
+PB  - Springer
+Y1  - 2026
+VL  - 29
+ID  - cdi_doaj_primary_oai_doaj_org_article_f02b43fbdc73435d86a22feded876071
+N2  - Abstract Purpose This paper develops and evaluates a cyber risk engineering framework for multi-agency digital government platforms, employing a design science research (DSR) methodology to construct, operationalise, and preliminarily validate the Cyber Risk Governance Maturity Model (CRGMM) as a reusable computing artefact. Design/Methodology Following Hevner et al.’s [18] DSR cycle, the CRGMM is constructed through threat modelling (STRIDE + MITRE ATT&CK v14), framework benchmarking (NIST CSF 2.0, ISO 27001/27701, CISA ZTA Maturity Model), and GQM-derived indicator design. Initial validation is conducted through a structured expert panel (n = 15), with ordinal Krippendorff’s alpha = 0.7644 (10,000-resample bootstrap 95% CI [0.6700, 0.9248]), and a single pilot case application to Kuwait’s Sahel platform — a systemically important government platform (SIGP) consolidating 433 + services for nine million users. Findings The CRGMM comprises six governance dimensions, five maturity levels, and fourteen quantitative scoring indicators. Applied to Sahel, it reveals a structural governance-technology disjunction: operationally capable controls — biometric authentication, anti-fraud reporting, cloud-first infrastructure — coexist with critical legislative and accountability deficits. A quantitative threat severity matrix identifies platform identity fraud and cross-agency data breach as critical-band risks (score = 20). International benchmarking against UAE PASS, Estonia X-Road, Singapore SingPass/NDI, and Saudi Absher identifies the enacted-PDPL + independent-DPA combination as the single highest-priority reform. Ten sequenced policy propositions constitute a three-phase reform engineering roadmap. Originality/Value To the best of my knowledge, the CRGMM is among the first cyber risk engineering frameworks purpose-designed for multi-agency platform e-government, explicitly integrating zero trust architecture, privacy engineering, biometric identity governance, and citizen enablement as measurable dimensions. It addresses gaps in CMMI, NIST CSF tiers, CISA ZTA MM, CMMC, and C2M2 — none of which accommodate the governance challenges of cross-agency digital government platforms in regulatory-transition contexts. 
+AU  - Abdullah F. Alenezi
+SN  - 2948-2992
+IS  - 1
+T1  - Developing and evaluating a zero trust cyber risk governance maturity model for digital government platforms
+ER  -
+TY  - JOUR
+JF  - Journal of computer networks and communications
+DO  - 10.1155/jcnc/8893656
+PB  - John Wiley & Sons, Inc
+Y1  - 2026
+VL  - 2026
+ID  - cdi_crossref_primary_10_1155_jcnc_8893656
+N2  - Collaborative cyber threat intelligence systems require secure information sharing across distributed organizations while preserving data privacy and preventing unauthorized access. However, conventional centralized cybersecurity architectures introduce significant privacy risks, limited trust management, and increased vulnerability to data leakage and adversarial manipulation. Although federated learning (FL) enables decentralized collaborative model training without direct data sharing, federated environments remain vulnerable to poisoning attacks, inference attacks, unauthorized participation, and heterogeneous non‐IID data distributions. This paper proposes an integrated federated learning and zero‐trust architecture (FL–ZTA) framework for privacy‐preserving collaborative cyber threat intelligence sharing. The proposed framework combines decentralized federated learning, continuous zero‐trust verification, trust‐aware aggregation, adaptive policy enforcement, and secure collaborative coordination mechanisms to improve both privacy preservation and distributed cybersecurity resilience. The proposed framework was evaluated using the CIC‐IDS2017 cybersecurity dataset under both IID and non‐IID federated environments. Experimental analysis compared FedAvg, FedProx, and differentially private federated averaging (DP‐FedAvg) within the proposed FL–ZTA architecture. The results demonstrate improved resilience against poisoning and inference‐based attacks while maintaining stable collaborative learning performance under heterogeneous federated conditions. Furthermore, the proposed framework improves secure organizational collaboration by integrating continuous trust verification and adaptive federated coordination without requiring centralized raw data sharing. The findings demonstrate the potential of FL–ZTA architectures for privacy‐preserving collaborative cybersecurity systems operating across distributed and security‐sensitive infrastructures. 
+KW  - Access control ; Artificial intelligence ; Computer security ; Data integrity ; Feedback ; Inference ; Internet of things ; Machine learning ; Medical records ; Poisoning ; Privacy ; Reliability
+AU  - Chamkoori, Alireza
+AU  - Ghasemi, AbdolRasool
+SN  - 2090-7141
+CY  - New York
+IS  - 1
+T1  - Federated Learning and Zero‐Trust Architecture for Privacy Preservation and Collaborative Threat Intelligence
+ER  -
+TY  - JOUR
+JF  - Electronics (Basel)
+DO  - 10.3390/electronics12040782
+PB  - MDPI AG
+Y1  - 2023
+VL  - 12
+ID  - cdi_proquest_journals_2779477526
+N2  - Zero-trust security architecture reconstructs the trust foundation of access control based on authentication and authorization by continuously authenticating the terminal during the authentication process and not relying solely on geographic location/user attributes as the sole basis for the trust assessment. However, due to the fine-grained verification of identity under the zero-trust security architecture, there is a need for multiple authentication and authorization processes. If a single policy engine has unknown vulnerabilities and unknown backdoors to be maliciously attacked, or DDOS attacks initiated by known vulnerabilities cannot be prevented, the policy engine based on this control center architecture cannot meet the requirements of system security and reliability. Therefore, it is proposed to apply the SPA single-package authorization and endogenous security architecture to the zero-trust authentication system, which can realize the reliability, dynamism and diversity of system defense. Through the experimental antiattack analysis and antiattack test, the test from the proposed scheme found that when the system introduces the endogenous security architecture, the security of the system can be improved due to the complexity of the attack process and the increase in the cost of the attack. The test through both the security and system overhead found that the scheme can effectively improve the security of the system while ensuring the quality of network services, compared to the traditional scheme. It was found that the scheme can effectively improve the security of the system while ensuring the quality of network services and has better adaptability than the traditional zero-trust authentication scheme. 
+KW  - Access control ; Artificial intelligence ; Authentication ; Computer crimes ; Computer security ; Denial of service attacks ; Methodology ; Methods ; Prevention
+AU  - Xu, Mingyang
+AU  - Guo, Junli
+AU  - Yuan, Haoyu
+AU  - Yang, Xinyu
+SN  - 2079-9292
+CY  - Basel
+SP  - 782
+IS  - 4
+T1  - Zero-Trust Security Authentication Based on SPA and Endogenous Security Architecture
+ER  -
+TY  - JOUR
+JF  - Journal of cybersecurity and privacy
+DO  - 10.3390/jcp5040087
+PB  - MDPI AG
+Y1  - 2025
+VL  - 5
+ID  - cdi_crossref_primary_10_3390_jcp5040087
+N2  - Generative artificial intelligence (AI) and persistent empirical gaps are reshaping the cyber threat landscape faster than Zero-Trust Architecture (ZTA) research can respond. We reviewed 10 recent ZTA surveys and 136 primary studies (2022–2024) and found that 98% provided only partial or no real-world validation, leaving several core controls largely untested. Our critique, therefore, proceeds on two axes: first, mainstream ZTA research is empirically under-powered and operationally unproven; second, generative-AI attacks exploit these very weaknesses, accelerating policy bypass and detection failure. To expose this compounding risk, we contribute the Cyber Fraud Kill Chain (CFKC), a seven-stage attacker model (target identification, preparation, engagement, deception, execution, monetization, and cover-up) that maps specific generative techniques to NIST SP 800-207 components they erode. The CFKC highlights how synthetic identities, context manipulation and adversarial telemetry drive up false-negative rates, extend dwell time, and sidestep audit trails, thereby undermining the Zero-Trust principles of verify explicitly and assume breach. Existing guidance offers no systematic countermeasures for AI-scaled attacks, and that compliance regimes struggle to audit content that AI can mutate on demand. Finally, we outline research directions for adaptive, evidence-driven ZTA, and we argue that incremental extensions of current ZTA that are insufficient; only a generative-AI-aware redesign will sustain defensive parity in the coming threat cycle. 
+KW  - Access control ; Algorithms ; Compliance ; Computer security ; Fraud ; Threats
+AU  - Xu, Dan
+AU  - Gondal, Iqbal
+AU  - Yi, Xun
+AU  - Susnjak, Teo
+AU  - Watters, Paul
+AU  - McIntosh, Timothy R.
+SN  - 2624-800X
+CY  - Washington
+SP  - 87
+IS  - 4
+T1  - The Erosion of Cybersecurity Zero-Trust Principles Through Generative AI: A Survey on the Challenges and Future Directions
+ER  -
+TY  - JOUR
+JF  - Mathematics (Basel)
+DO  - 10.3390/math11122653
+PB  - MDPI AG
+Y1  - 2023
+VL  - 11
+ID  - cdi_doaj_primary_oai_doaj_org_article_30fe4918de0b486d9c8d8f504d107ace
+N2  - The importance of network security has increased with the emergence of networked systems in contemporary computing, making it an essential aspect of protecting digital assets and safeguarding against cyber threats. The current security mechanisms, which rely on cryptographic keys, may be susceptible to a number of attacks, such as media access control (MAC) spoofing, which might provide unauthorized users access to network resources. This study introduces a new approach, namely a zero-trust security framework with quantum fingerprinting for devices accessing a network, that utilizes quantum technology to protect networks from security threats and intruders. The proposed architecture relies on quantum fingerprinting to authenticate devices trying to access the network, and it is built on the zero-trust security concept. The framework is intended to offer a thorough, multi-layered approach to network security that may change in response to evolving security risks and specifications. By protecting against MAC spoofing and other types of device impersonation, the adoption of quantum fingerprinting adds another degree of protection. The proposed framework may be used to construct a reliable and scalable network security solution in different network environments. 
+KW  - Access control ; Automation ; Computer security ; Cryptography ; Data integrity ; Fingerprints ; Information networks ; Internet of things ; Quantum computing
+AU  - Zaid, Bassfar
+AU  - Sayeed, Ashar
+AU  - Bala, Priti
+AU  - Alshehri, Ali
+AU  - Alanazi, Abdulaziz Mohammed
+AU  - Zubair, Swaleha
+SN  - 2227-7390
+CY  - Basel
+SP  - 2653
+IS  - 12
+T1  - Toward Secure and Resilient Networks: A Zero-Trust Security Framework with Quantum Fingerprinting for Devices Accessing Network
+ER  -
+TY  - JOUR
+JF  - Journal of cloud computing : advances, systems and applications
+DO  - 10.1186/s13677-026-00943-0
+PB  - Springer Berlin Heidelberg
+Y1  - 2026
+JA  - J Cloud Comp
+VL  - 15
+ID  - cdi_springer_journals_10_1186_s13677_026_00943_0
+N2  - The conventional paradigm is inadequate to address the ever-evolving Cyber Threats resulting from the swift expansion of Cloud Computing, Remote Access, and Distributed Digital Infrastructures. Zero Trust Environments (ZTE) necessitate continuously updated and adaptive trust assessment procedures in response to emerging cyber threats and insider attacks. This study introduces a Hybrid DQN Driven Risk Adaptive Identity Trust Engine (HD-RAITE) platform that integrates unsupervised behavioural anomaly detection to facilitate a continuous and dynamic approach to trust decision-making for each identity. The HD-RAITE consistently gathers identity, device, session, and behavioural characteristics for each user and computes a risk score utilising the results from Isolation Forest and Autoencoders. The computed risk score is transmitted to facilitate optimal trust decisions, including allowing, limiting, escalating authentication, and denying access over Deep Q-Networks (DQN). The assessment of the Risk-based Authentication Dataset underpinned the experimental outcomes of the HD-RAITE, which attained an accuracy of 98.68%, precision of 98.60%, sensitivity of 98.77%, specificity of 98.59%, and an F1 score of 98.68%, thereby surpassing all existing Zero Trust and AI-based models. The results indicate that the HD-RAITE model has substantially enhanced the operational security resilience of the evaluated companies with negligible effects on genuine users. 
+KW  - Access control ; Authentication ; Cloud computing ; Computer networks ; Computer science ; Computer security ; Home labor ; Information storage and retrieval systems ; Machine learning ; Reinforcement learning ; Reliability ; Research ; Threats
+AU  - Chirchi, Vanajaroselin
+AU  - Prakash, M.
+AU  - Duraimutharasan, N.
+AU  - Viswanathan, C.
+AU  - Gururama Senthilvel, P.
+AU  - Balasubramaniam, S.
+AU  - Ayalew, Frie
+SN  - 2192-113X
+CY  - Berlin/Heidelberg
+SP  - 124
+IS  - 1
+T1  - HD-RAITE: a hybrid deep reinforcement learning framework for Risk-Adaptive Identity trust management in Zero Trust Environments
+ER  -
+TY  - JOUR
+JF  - Automatic documentation and mathematical linguistics
+DO  - 10.3103/S0005105526700482
+PB  - Pleiades Publishing
+Y1  - 2026
+JA  - Autom. Doc. Math. Linguist
+VL  - 60
+ID  - cdi_proquest_journals_3388723568
+N2  - The article addresses the challenge of securing service-to-service communication in distributed microservice architectures. Traditional perimeter-based security models are losing relevance in dynamically scalable cloud environments. We propose an architecture for a machine identity management system based on Zero Trust principles. A distinctive feature of the solution is the use of a scalable NoSQL backend for storing access policies and audit logs. The economic risks of implementation are analyzed, and the effectiveness of the proposed approach is evaluated in terms of reducing the probability of information security incidents. The results demonstrate the feasibility of achieving a balance between system security and performance. 
+KW  - Access control ; Automation ; Computer science ; Data integrity ; Information organization ; Information retrieval ; Information storage and retrieval systems ; Relational databases ; Trust
+EP  - 189
+AU  - Kunniev, H. M.
+SN  - 0005-1055
+CY  - Moscow
+SP  - 184
+IS  - 3
+T1  - Development of a Machine Identity Management System for Microservices with a NoSQL Backend in Zero Trust Conditions
+ER  -
+TY  - JOUR
+JF  - Applied sciences
+DO  - 10.3390/app15158163
+PB  - MDPI AG
+Y1  - 2025
+VL  - 15
+ID  - cdi_proquest_journals_3239020296
+N2  - This paper introduces the Automated Zero Trust Risk Management with DevSecOps Integration (AZTRM-D) framework, a novel approach that embeds security throughout the entire Secure Software and System Development Life Cycle (S-SDLC). AZTRM-D strategically unifies three established methodologies: DevSecOps practices, the NIST Risk Management Framework (RMF), and the Zero Trust (ZT) model. It then significantly augments their capabilities through the pervasive application of Artificial Intelligence (AI). This integration shifts traditional, often fragmented, security paradigms towards a proactive, automated, and continuously adaptive security posture. AI serves as the foundational enabler, providing real-time threat intelligence, automating critical security controls, facilitating continuous vulnerability detection, and enabling dynamic policy enforcement from initial code development through operational deployment. By automating key security functions and providing continuous oversight, AZTRM-D enhances risk mitigation, reduces vulnerabilities, streamlines compliance, and significantly strengthens the overall security posture of software systems, thereby addressing the complexities of modern cyber threats and accelerating the delivery of secure software. 
+KW  - Access control ; Adaptation ; Artificial intelligence ; Automation ; Efficiency ; Methodology ; Methods ; Risk management ; Software ; Threats
+AU  - Coston, Ian
+AU  - Hezel, Karl David
+AU  - Plotnizky, Eadan
+AU  - Nojoumian, Mehrdad
+SN  - 2076-3417
+CY  - Basel
+SP  - 8163
+IS  - 15
+T1  - Enhancing Secure Software Development with AZTRM-D: An AI-Integrated Approach Combining DevSecOps, Risk Management, and Zero Trust
+ER  -
+TY  - JOUR
+JF  - Discover Networks
+DO  - 10.1007/s44354-026-00023-4
+PB  - Springer Nature Singapore
+Y1  - 2026
+JA  - Discov Netw
+VL  - 2
+ID  - cdi_springer_journals_10_1007_s44354_026_00023_4
+N2  - The rapid expansion of cloud-native infrastructure and mobile computing has rendered traditional perimeter-based security obsolete, necessitating the development of resilient digital frameworks in alignment with United Nations Sustainable Development Goal 9 (Industry, Innovation, and Infrastructure). This review article investigates the convergence of two critical paradigms: Zero-Click Attacks, which exploit system components without user interaction, and Zero-Trust Architecture (ZTA), the necessary adaptive defence strategy. Adopting the PRISMA-based systematic review methodology, this study synthesises current literature to provide a critical evaluation of the evolution of zero-click vectors, focusing on critical vulnerabilities within Android system components and media processing libraries. The efficacy of current detection methodologies is evaluated, contrasting the limitations of static analysis with the promise of sandbox-based behavioural monitoring. Furthermore, the paper explores the transition from static ZTA policies to AI-driven enforcement, utilising the SmartTrust framework as a primary case study. This hybrid deep learning approach, integrating Convolutional Neural Networks, Long Short-Term Memory networks, and Reinforcement Learning, demonstrates how real-time, context-aware risk scoring can mitigate invisible threats. Finally, the review outlines open research challenges, specifically the scalability of behavioural analysis and the resilience of AI models against adversarial evasion, proposing a strategic roadmap for AI-native Zero-Trust in hyper-connected environments. 
+KW  - Computer networks ; Computer science ; Power electronics ; Review
+AU  - Archibong, Enobong
+AU  - Asuquo, Philip
+AU  - Stephen, Bliss
+SN  - 3004-9792
+CY  - Singapore
+IS  - 1
+T1  - Review of zero-click attacks and zero-trust security model: concepts, architecture, state of the art, and future directions
+ER  -
